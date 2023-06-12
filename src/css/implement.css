@@ -1,0 +1,35 @@
+.implement *{
+    margin: 0;
+    padding: 0;
+}
+.implement{
+    width: 400px;
+    height: 350px;
+    background-color: #170948;
+    position: relative;
+    z-index: 2;
+}
+.implemntHeading{
+    background-color: #5a6bff;
+    color: white;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    width: 400px;
+    position: absolute;
+    top: 0;
+}
+.content1{
+    color: white;
+    text-align: left;
+    padding: 1rem 1.5rem;
+    padding-top: 3.2rem;
+}
+@media screen and (max-width: 450px) {
+    .implement{
+        width: 350px !important;
+    }
+    .implemntHeading{
+        width: 350px;
+    }
+  }

@@ -1,0 +1,81 @@
+.Build{
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+}
+.Build{
+    background-color: #1a247a;
+    height: -moz-calc(100vh - (40px + 30px));
+    height: -webkit-calc(100vh - (40px + 30px));
+    height: calc(100vh - (40px + 30px));
+    position: relative;
+}
+.buildHeading{
+    z-index: 100;
+    width: 100%;
+    background-color: #190a4d;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0rem 1.5rem;
+    color: white;
+    gap: 15px;
+    font-size: 1.2rem; 
+    position: fixed;
+}
+.contentFirst{
+    margin-top: 70px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 2rem 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logic{
+    padding: 0.2rem 1rem 1rem 1rem;
+    background-color: #5a6bff;
+}
+.logic p{
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+}
+.cross{
+    position: absolute;
+    top: -4px;
+    right: -1px;
+    background-color: rgb(156, 47, 91);
+    font-size: 0.7rem;
+    padding: 2px 3px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.direction{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    padding: 1rem;
+}
+.icon1{
+    cursor: grab;
+}
+@media screen and (max-width: 900px) {
+    .Build{
+        height: fit-content;
+    }
+    .buildHeading{
+        position: absolute;
+    }
+  }

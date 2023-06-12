@@ -1,0 +1,25 @@
+.container{
+    width: 350px;
+    height: 350px;
+}
+.card{
+    background-color: rgb(255, 196, 0) !important;
+    width: 68px;
+    height: 68px;
+    border-radius: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2ms linear;
+}
+.card1{
+    background-color: rgb(255, 51, 0) !important;
+    width: 68px;
+    height: 68px;
+    border-radius: 0px !important;
+}
+.robo{
+    font-size: 3rem;
+    color: rgb(104, 6, 73);
+
+}
